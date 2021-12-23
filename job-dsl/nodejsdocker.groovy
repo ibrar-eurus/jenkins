@@ -19,7 +19,7 @@ job('NodeJS Docker example') {
             registryCredentials('dockerhub')
             forcePull(false)
             forceTag(false)
-            createFingerprints(false)
+            createFingerprints(false) //hello
             skipDecorate()
         }
     }
